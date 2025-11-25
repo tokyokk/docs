@@ -1,0 +1,19 @@
+// place your custom styles here
+
+// 调整侧边栏内边距
+.vp-sidebar {
+  padding: 1rem !important;  // 整体内边距
+  
+  .vp-sidebar-links {
+    padding-left: 0.5rem !important;  // 链接列表的左边距
+  }
+  
+  .vp-sidebar-link {
+    padding: 0.3rem 0.5rem !important;  // 单个链接的内边距
+  }
+}
+
+// 如果需要调整侧边栏宽度
+.vp-sidebar {
+  width: 18rem !important;  // 调整侧边栏宽度
+}

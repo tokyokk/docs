@@ -523,7 +523,9 @@ export default sidebar({
 			icon: '/assets/icon/jvm.png',
 			collapsible: true,
 			prefix: '/notes/jvm/',
-			children: [],
+			children: [
+				'JVM上篇：内存与垃圾回收篇/1. JVM与Java体系结构.md',
+			],
 		},
 		{
 			text: 'GOF23种设计模式',

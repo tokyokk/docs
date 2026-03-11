@@ -13,11 +13,11 @@ author: Ms.Hope
 date: 2020-01-01
 # 一个页面可以有多个分类
 category:
-  - 使用指南
+    - 使用指南
 # 一个页面可以有多个标签
 tag:
-  - 页面配置
-  - 使用指南
+    - 页面配置
+    - 使用指南
 # 此页面会在文章列表置顶
 sticky: true
 # 此页面会出现在星标文章中
@@ -116,10 +116,10 @@ const MyComponent = defineComponent({
 
 - 一个卡片:
 
-  ```component VPCard
-  title: Mr.Hope
-  desc: Where there is light, there is hope
-  logo: https://mister-hope.com/logo.svg
-  link: https://mister-hope.com
-  background: rgba(253, 230, 138, 0.15)
-  ```
+    ```component VPCard
+    title: Mr.Hope
+    desc: Where there is light, there is hope
+    logo: https://mister-hope.com/logo.svg
+    link: https://mister-hope.com
+    background: rgba(253, 230, 138, 0.15)
+    ```
